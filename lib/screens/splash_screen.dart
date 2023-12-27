@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class ChatScreen extends StatelessWidget {
-  const ChatScreen({super.key});
+class SplashScreen extends StatelessWidget {
+  const SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Flutter Chat App"),
+        title: const Text("Splash"),
       ),
       body: const Center(
-        child: Text("Logged In"),
+        child: Text("Splash Screen"),
       ),
     );
   }
